@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Biomedical Informatics</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="archisyn.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Navigation Bar-->
+        <nav>
+            <div class ="navlogo">
+            <img src="images/itslogo.png" alt="" class="itslogo">
+            <img src="images/bmelogo.png" alt="" class="bmelogo">
+            <img src="images/hmtblogo.png" alt="" class="hmtblogo">
+            <img src="images/archisyn.png" alt="" class="archilogo">
+            <img src="images/ilprof.png" alt="" class="ilproflogo">
+           </div>
+            <div class = "navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="subjects.html">Subjects</a></li>
+                    <li><a href="prospects.html">Prospects</a></li>
+                </ul>
+            </div>
+        </nav>
+    <!-- Home Section-->
+    <section id="home">
+        <div class = "welcome">
+        <h2 class="welcometext">Welcome To The World of Medical Informatics.</h2>
+        </div>
+        <p>This short "safari" site will guide you through and explain everything you need 
+            to know about BME ITS' Medical Informatics Branch! Let's get to know the creator of this site first.
+            </p>
+        <div class="btn"> 
+            <a href="#profiletitle" class ="yellow">Learn More</a>
+        </div>    
+    </section>
+
+    <!--Profile Section-->
+    <section id="profile" class="profile-section">
+        <h1 id="profiletitle" class="animated-title" >Get to Know The Creator!</h1>
+
+        <div class="profile-content">
+          <img src="images/formal_crop.png" alt="Armand" class="profile-image" >
+            <div class="fea-wrapper">
+               <div class ="fea-box">
+                <img src="images/user.png" alt="" class="user-icon">
+                <h3>About Me</h3>
+                <p> I'm Armand Faris A Surbakti from Batch 2020, currently focusing on the field of Medical Informatics.</p>
+               </div>
+               <div class ="fea-box">
+                <img src="images/codecon.png" alt="" class="user-icon">
+                <h3>My Skills</h3>
+                <p> My informatics skills cover a range of Machine Learning, Front-End Web Development, and Databases .</p>
+               </div>
+               <div class ="fea-box">
+                <img src="images/target.png" alt="" class="user-icon">
+                <h3> Objective</h3>
+                <p> My Objective here is to guide all of you to the world of medical informatics and can hopefully interest you in this field. </p>
+               </div>
+
+            </div>
+        </div>
+    </section>
+    <!--About Med Info Section, with Image Slider-->
+    <!-- Sliding Content Section -->
+    <section id="about-slide"class="container">
+        <div class="slider-wrapper">
+            
+                <div id="slide-1" class="slide-content">
+                    <img src="images/medforre.png" alt=""class="slide-image"/>
+                    <div class="info">
+                    <h3>By Definition:</h3>
+                    <p>Medical informatics is a sub-discipline of health informatics where skills in both medical and computer sciences 
+                        come together in an effort to improve healthcare and patient outcomes. Professionals in this hybrid field draw 
+                        on expertise from both disciplines to put technology to its best use in patient care, clinical, and research settings. (https://www.usfhealthonline.com)</p>    
+                </div>  
+            </div>
+                <div id="slide-2" class="slide-content">
+                    <img src="images/genomere.png" alt="" class="slide-image"/>
+                    <div class="info">
+                    <h3>Job Tasks</h3>
+                    <ul>
+                        <li>Creating and Maintaining new ways for medical facilities to keep electronic health records.</li>
+                        <li>Create Software related to Healthcare, be it Mobile Applications, Websites, or Artificial Intelligence.</li>
+                        <li>Storing and Managing medical data for research</li>
+                        <li>Research in Biotech-based fields such as Genomic Computation</li>
+                    </ul>
+                    </div> 
+                </div>
+
+                <div id="slide-3" class="slide-content">
+                    <img src="images/interested.png" alt=""class="slide-image"/>
+                    <div class="info">
+                    <h3>Interested?</h3>
+                    <p>Find out more by clicking the Subjects Page to get to know the courses!</p>
+                </div> 
+               </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class=""container>
+           <h2>Contact Me</h2>
+           <ul>
+               <li><a href="https://www.linkedin.com/in/armandfs/"target="_blank"><img src="images/linkedin.png"class="logo"></a></li>                                       </li>
+               <li><a href="https://twitter.com/armandmeister1"target="_blank"><img src="images/twitter.png"class="logo"></a></li>  
+               <li><a href="https://www.instagram.com/armandsurbakti/"target="_blank"><img src="images/instagram.png"class="logo"></a></li>  
+               <li><a href="https://github.com/ArmandFS"target="_blank"><img src="images/github.png"class="logo"></a></li>  
+          </ul>
+          <p>Web Hosting by Github.io | Created by Armand Faris A Surbakti</p>
+          <p>@2023 Github | Made for BMW Purposes | All Rights Reserved.</p>
+        </div>
+</footer>
+    <script>
+        document.querySelector('.yellow').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector('#profile').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+    </body>
+</html>

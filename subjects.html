@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Biomedical Informatics</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="archisyn.ico">
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <!-- Navigation Bar-->
+        <nav>
+            <div class ="navlogo">
+            <img src="images/itslogo.png" alt="" class="itslogo">
+            <img src="images/bmelogo.png" alt="" class="bmelogo">
+            <img src="images/hmtblogo.png" alt="" class="hmtblogo">
+            <img src="images/archisyn.png" alt="" class="archilogo">
+            <img src="images/ilprof.png" alt="" class="ilproflogo">
+           </div>
+            <div class = "navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="subjects.html">Subjects</a></li>
+                    <li><a href="prospects.html">Prospects</a></li>
+                </ul>
+            </div>
+        </nav>
+    <!-- Home Section-->
+    <section id="home">
+        <div class = "welcome">
+        <h2 class="welcometext">Let's get you introduced to the courses!</h2>
+        </div>
+        <p>Here are the 3 courses of Medical Informatics.
+            </p>
+        <div class="btn"> 
+            <a href="#courses" class ="yellow">Let's Go!</a>
+        </div>    
+    </section>
+    
+<!-- Course Section -->
+<section id="courses" class="course-section">
+    <h2>Medical Informatics Courses</h2>
+    <div class="course-container">
+        <!-- Course 1 -->
+        <div class="course">
+            <img src="images/database.png" alt="Medical Database & Optimization">
+            <h3>Medical Database & Optimization</h3>
+            <p>This course focuses on the management and optimization of medical databases. Students will learn about data modeling, query optimization, and database security.</p>
+            <p><strong>Tech Stack:</strong> SQL, Database Management Systems, Data Modeling. VMs, Linux OS, & PHP</p>
+        </div>
+
+        <!-- Course 2 -->
+        <div class="course">
+            <img src="images/manajin.png" alt="Medical Information Management">
+            <h3>Medical Information Management</h3>
+            <p>This course covers the management of medical information systems. Students will explore electronic health records (EHRs), and utilize linux to operate on the BME Servers</p>
+            <p><strong>Tech Stack:</strong> Health IT Standards, EHR Systems, Healthcare Informatics. Linux OS, C Programming Language.</p>
+        </div>
+
+        <!-- Course 3 -->
+        <div class="course">
+            <img src="images/kompgen.png" alt="Genomic Computation">
+            <h3>Genomic Computation</h3>
+            <p>In this course, students dive into genomic data analysis and computation. Topics include DNA sequencing, genomic databases, and bioinformatics tools.</p>
+            <p><strong>Tech Stack:</strong> Python Libraries such as NumPy and Matplotlib can help visualize genomic structures, Genomic Databases offer a wide range of data. </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Resources Section -->
+<section id="resources" class="resources-section">
+    <h2>Useful Learning Resources</h2>
+    <div class="resources-wrapper">
+        <!-- Resource 1 -->
+        <div class="resource-box" id="resource-1">
+            <img src="images/textbook.jpg" alt="Resource 1">
+            <h3>Classic Textbooks</h3>
+            <p>Classic code textbooks provide a foundatinal understanding of coding principles 
+                and the different programming languages used. Reading and practicing 
+                the problem questions can help deepen understanding</p>
+        </div>
+
+        <!-- Resource 2 -->
+        <div class="resource-box" id="resource-2">
+            <img src="images/udemy.jpg" alt="Resource 2">
+            <h3>Online E-Learning</h3>
+            <p>Online e-learning platforms offer a wide range of courses 
+                tailored to medical informatics. 
+                They provide structured learning paths, access to expert 
+                instructors, and hands-on exercises. Examples include Udemy, Coursera, & Codecademy</p>
+        </div>
+
+        <!-- Resource 3 -->
+        <div class="resource-box" id="resource-3">
+            <img src="images/guycoding.jpg" alt="Resource 3">
+            <h3>Project-Based Learning</h3>
+            <p>Project-based learning is a practical approach where learners work on real-world projects.
+                 The more proejcts you build, the more proficient you will become.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <footer id="contact">
+        <div class=""container>
+           <h2>Contact Me</h2>
+           <ul>
+               <li><a href="https://www.linkedin.com/in/armandfs/"target="_blank"><img src="images/linkedin.png"class="logo"></a></li>                                       </li>
+               <li><a href="https://twitter.com/armandmeister1"target="_blank"><img src="images/twitter.png"class="logo"></a></li>  
+               <li><a href="https://www.instagram.com/armandsurbakti/"target="_blank"><img src="images/instagram.png"class="logo"></a></li>  
+               <li><a href="https://github.com/ArmandFS"target="_blank"><img src="images/github.png"class="logo"></a></li>  
+          </ul>
+          <p>Web Hosting by Github.io | Created by Armand Faris A Surbakti</p>
+          <p>@2023 Github | Made for BMW Purposes | All Rights Reserved.</p>
+        </div>
+</footer>
+
+    <script>
+        document.querySelector('.yellow').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector('#courses').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+
+    </body>
+</html>
